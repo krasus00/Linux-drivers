@@ -1,0 +1,16 @@
+all: hello #у цели all теперь есть зависимость, но нет команды
+
+hello: main.o factorial.o hello.o
+	g++ main.o factorial.o hello.o -o hello
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+factorial.o: factorial.cpp
+	g++ -c factorial.cpp
+
+hello.o: hello.cpp
+	g++ -c hello.cpp
+
+clean: #функция очистки сборки проекта запуск: make -f Makefile-2 
+	rm -rf *.o hello

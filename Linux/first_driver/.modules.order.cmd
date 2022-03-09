@@ -1,0 +1,1 @@
+cmd_/home/mboris/projects/Linux/first_driver/modules.order := {   echo /home/mboris/projects/Linux/first_driver/first_driver.ko; :; } | awk '!x[$$0]++' - > /home/mboris/projects/Linux/first_driver/modules.order

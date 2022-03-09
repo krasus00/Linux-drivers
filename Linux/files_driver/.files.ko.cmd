@@ -1,0 +1,1 @@
+cmd_/home/mboris/projects/files_driver/files.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/mboris/projects/files_driver/files.ko /home/mboris/projects/files_driver/files.o /home/mboris/projects/files_driver/files.mod.o;  true

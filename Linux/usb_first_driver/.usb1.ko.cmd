@@ -1,0 +1,1 @@
+cmd_/home/mboris/projects/usb_first_driver/usb1.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/mboris/projects/usb_first_driver/usb1.ko /home/mboris/projects/usb_first_driver/usb1.o /home/mboris/projects/usb_first_driver/usb1.mod.o;  true
